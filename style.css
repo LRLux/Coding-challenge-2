@@ -1,0 +1,70 @@
+/* selettore
+       proprietà: valore;
+       proprietà: valore;
+       */
+    * {
+      font-family: 'Raleway', sans-serif;
+         box-sizing: border-box;
+       }
+
+       body {
+         background-image: url("background.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         color: rgb(0, 225, 0);
+         }
+
+       #border {
+         background-color: rgba(0, 0, 0, 0.5);
+         padding: 3%;
+         border-radius: 30px;
+         margin-top: 5%;
+         margin-left: 20%;
+         margin-right: 20%;
+       }
+
+       header {
+         text-align: center;
+       }
+
+       #green {
+         background-color: rgb(0, 225, 0);
+         padding: 1%;
+       }
+
+       header img {
+         width: 30%;
+         height: 30%;
+       }
+
+       main {
+         color: white;
+       }
+
+       input + h2 {
+         display: inline-block;}
+
+       .arrow:before {
+         content: "\21A6";
+       }
+
+         #bike1 {
+           background-color: orange;
+           width: 350px;
+           height: 30px;
+           border-radius:20px;
+         }
+
+         #bike2 {
+           background-color: green;
+           width: 500px;
+           height: 30px;
+           border-radius:20px;
+         }
+
+         #bike3 {
+           background-color: red;
+           width: 150px;
+           height: 30px;
+           border-radius:20px
+         }
